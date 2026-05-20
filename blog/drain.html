@@ -149,7 +149,7 @@
 <p>where VAD uses a 1-9 scale and concreteness uses a 1-5 scale.</p>
 
 <h3>Distinctive Vocabulary</h3>
-<p>Aggregate profiling assigns equal weight to all tokens; this causes the large shared pool of natural function words to dominate and suppress artist-specific signals. I applied the weighted log-odds ratio with an informative <a href="https://en.wikipedia.org/wiki/Dirichlet_distribution" target="_blank" rel="noopener">Dirichlet prior</a> developed by Monroe et al. in order to isolate lexical preference. This procedure produces a z-score for each word type reflecting the degree to which it is over-represented in one artist's corpus relative to the other, penalized for high-variance estimates arising from low counts. Only word types with >= 4 total occurrences across both corpora were included (1147 types). Positive z-scores indicate Bladee's distinctive usage while negative z-scores indicate Ecco2k's distinctive usage.</p>
+<p>Aggregate profiling assigns equal weight to all tokens; this causes the large shared pool of natural function words to dominate and suppress artist-specific signals. I applied the weighted log-odds ratio developed by Monroe et al. in order to isolate lexical preference. This procedure produces a z-score for each word type reflecting the degree to which it is over-represented in one artist's corpus relative to the other, penalized for high-variance estimates arising from low counts. Only word types with >= 4 total occurrences across both corpora were included (1147 types). Positive z-scores indicate Bladee's distinctive usage while negative z-scores indicate Ecco2k's distinctive usage.</p>
 
 
 
