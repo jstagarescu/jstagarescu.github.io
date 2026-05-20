@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jean-Paul Stagarescu</title>
+  <meta name="description" content="Jean-Paul Stagarescu — undergraduate psychology student at George Mason University.">
+  <link rel="icon" href="media/icon.gif">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a class="nav-name" href="index.html">Jean-Paul Stagarescu</a>
+      <ul class="nav-links">
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="papers.html">Papers</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1 class="hero-name">Jean-Paul Stagarescu</h1>
+    <div class="hero-bio">
+      <p>I'm an undergraduate student studying psychology at George Mason University.</p>
+    </div>
+    <div class="hero-contact">
+      <a href="mailto:jstagare@gmu.edu">jstagare@gmu.edu</a>
+    </div>
+  </section>
+
+  <hr class="sep-h">
+
+  <div class="preview-outer">
+    <div class="preview-block">
+      <div class="preview-eyebrow">Recent Post</div>
+      <div class="preview-title"><a href="blog/drain.html">Take a Bunch of Empty Words and Make Them Mean Something</a></div>
+      <div class="preview-meta">May 2026</div>
+      <div class="preview-excerpt">Aggregate profiling applied to Bladee (284 songs) and Ecco2k (45 songs) using Warriner et al. VAD norms and Brysbaert et al. concreteness ratings yields nearly identical profiles across all four dimen…</div>
+      <a class="preview-more" href="blog.html">See all posts →</a>
+    </div>
+  </div>
+
+  <hr class="sep-h">
+
+  <div class="preview-outer">
+    <div class="preview-block">
+      <div class="preview-eyebrow">Recent Paper</div>
+      <div class="preview-title">A Framework to Evaluate How AI Conflict Alerts Affect Controllers' Manual Verification Behaviors</div>
+      <div class="preview-meta">Jean-Paul Stagarescu · 2026 · The Integrated Communications Navigation and Surveillance (ICNS) Conference</div>
+      <div class="preview-excerpt">A unified, operational framework that connects AI conflict alert design choices to measurable changes in controller verification behavior, enabling evaluation beyond alert performance metrics.</div>
+      <a class="preview-more" href="papers.html">See all papers →</a>
+    </div>
+  </div>
+
+  <hr class="sep-h">
+
+  <div class="player" id="music-player">
+    <div class="player-meta">
+      <span class="player-glyph">♫</span>
+      <span class="player-filename" id="player-filename">bladee &amp; ecco2k — vanilla sky</span>
+      <span class="player-dur" id="player-dur">—</span>
+    </div>
+    <div class="player-viz" id="player-viz" aria-hidden="true">▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁</div>
+    <div class="player-row">
+      <button class="player-playbtn" id="player-playbtn" aria-label="Play">[ ▶ ]</button>
+      <div class="player-prog" id="player-prog" role="slider" aria-label="Seek" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</div>
+      <span class="player-cur" id="player-cur">0:00 / —</span>
+      <span class="player-vol-label">vol</span>
+      <div class="player-vol" id="player-vol" role="slider" aria-label="Volume" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100">████████</div>
+    </div>
+  </div>
+
+  <script src="js/site.js"></script>
+</body>
+</html>
