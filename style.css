@@ -88,13 +88,17 @@ nav {
 
 .nav-name {
   font-size: 0.9rem;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--strong);
-  letter-spacing: 0.015em;
+  letter-spacing: 0.1em;
   margin-right: auto;
   text-decoration: none;
 }
 .nav-name:hover { color: var(--accent); text-decoration: none; }
+
+.nav-name::before { content: '[ '; }
+.nav-name::after  { content: ' ]'; }
+
 
 .nav-links {
   display: flex;
@@ -129,7 +133,6 @@ nav {
   font-size: 2.25rem;
   font-weight: 700;
   color: var(--strong);
-  letter-spacing: -0.01em;
   margin-bottom: 0.6rem;
 }
 
